@@ -1,0 +1,43 @@
+body {
+    background-repeat: repeat-x;
+    background-size: cover;
+
+    font-family: 'TheSans Swisscom','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+.page {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    background-color: #333;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.my-background
+{
+    background-color:   #333
+}
+
+#carouselExampleCaptions {
+    width: 50%;
+    display: inline-block;
+}
+
+.carousel-caption {
+    text-shadow: 5px 3px 5px #001155 ;
+}
+
+.icon-links {
+    font-size: 48px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon-links a:hover {
+    color:blue;
+}
+
+
