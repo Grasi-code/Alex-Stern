@@ -40,4 +40,18 @@ body {
     color:blue;
 }
 
+.dark_body{
+    background: #333;
+}
+
+p{
+    color: #fff;
+}
+
+h1{
+    color: white;
+}
+
+
+
 

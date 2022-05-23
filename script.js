@@ -54,7 +54,6 @@
             possibleEmoji = ["💻","👩‍💻","🤖","⌨️"]
         })
     })
-   
     
     function init() {
       bindEvents();

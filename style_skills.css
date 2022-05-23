@@ -1,3 +1,9 @@
+*{
+    font-family: 'TheSans Swisscom';
+    list-style: none;
+    padding: 0;
+}
+
 .skillsBody{
     background: #333;
 }
@@ -8,7 +14,7 @@
     color: white;
 }
 
-.skill_List{
+.skill li{
     margin: 20px 0;
 }
 
@@ -19,7 +25,7 @@
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 10px #2187e7b3
+    box-shadow: 0 0 10px #2187e7b3;
 }
 
 .bar span {
@@ -146,7 +152,7 @@ html {
 
 .box-item {
     position: relative;
-    -webkit-backface-visibility: hidden;
+    --webkit-backface-visibility: hidden;
     width: 415px;
     margin-bottom: 35px;
     max-width: 100%;
