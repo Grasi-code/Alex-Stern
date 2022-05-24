@@ -1,6 +1,5 @@
 *{
     font-family: 'TheSans Swisscom';
-    list-style: none;
     padding: 0;
 }
 
@@ -64,6 +63,11 @@
     animation: python 2s;
 }
 
+.vuejs{
+    width: 30%;
+    animation: vuejs 2s;
+}
+
 @keyframes html{
     0% {
         width: 0%;
@@ -115,6 +119,15 @@
     }
     100%{
         width: 65%;
+    }
+}
+
+@keyframes vuejs{
+    0% {
+        width: 0%;
+    }
+    100%{
+        width: 30%;
     }
 }
 
