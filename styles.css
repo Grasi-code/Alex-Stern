@@ -8,17 +8,9 @@ body {
     margin: 0;
 }
 
-.page {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    background-color: #333;
-    padding: 20px;
-    min-width: 200px;
-}
-
 .my-background
 {
-    background-color:   #333
+    background-color:#333;
 }
 
 #carouselExampleCaptions {
@@ -44,11 +36,7 @@ body {
     background: #333;
 }
 
-p{
-    color: #fff;
-}
-
-h1{
+h1, p{
     color: white;
 }
 

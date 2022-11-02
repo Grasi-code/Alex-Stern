@@ -64,7 +64,7 @@
 }
 
 .vuejs{
-    width: 30%;
+    width: 50%;
     animation: vuejs 2s;
 }
 
@@ -127,7 +127,7 @@
         width: 0%;
     }
     100%{
-        width: 30%;
+        width: 50%;
     }
 }
 
@@ -151,10 +151,11 @@ html {
 .box-container {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     padding: 35px 15px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 @media screen and (min-width:1380px) {
