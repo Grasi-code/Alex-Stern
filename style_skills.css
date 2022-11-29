@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .skillsBody{
     background: #333;
 }
@@ -15,6 +16,7 @@
 
 .skill li{
     margin: 20px 0;
+    gap: 10px;
 }
 
 .bar {
@@ -23,7 +25,7 @@
     height: 2px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
-    overflow: hidden;
+    /* overflow: hidden; */
     box-shadow: 0 0 10px #2187e7b3;
 }
 
@@ -118,7 +120,7 @@
         width: 0%;
     }
     100%{
-        width: 65%;
+        width: 90%;
     }
 }
 
