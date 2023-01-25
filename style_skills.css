@@ -8,131 +8,6 @@
     background: #333;
 }
 
-.skills{
-    width: 500px;
-    margin: 60px auto;
-    color: white;
-}
-
-.skill li{
-    margin: 20px 0;
-    gap: 10px;
-}
-
-.bar {
-    background: #353b48;
-    display: block;
-    height: 2px;
-    border: 1px solid rgba(0,0,0,0.3);
-    border-radius: 3px;
-    /* overflow: hidden; */
-    box-shadow: 0 0 10px #2187e7b3;
-}
-
-.bar span {
-    height: 2px;
-    float: left;
-    background: #2197e7;
-}
-
-.html{
-    width: 80%;
-    animation: html 2s;
-}
-
-.scss{
-    width: 70%;
-    animation: scss 2s;
-}
-
-.net{
-    width: 60%;
-    animation: net 2s;
-}
-
-.sql{
-    width: 90%;
-    animation: sql 2s;
-}
-
-.java{
-    width: 40%;
-    animation: java 2s;
-}
-
-.python{
-    width: 65%;
-    animation: python 2s;
-}
-
-.vuejs{
-    width: 50%;
-    animation: vuejs 2s;
-}
-
-@keyframes html{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 80%;
-    }
-}
-
-@keyframes scss{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-
-@keyframes net{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-
-@keyframes sql{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-
-@keyframes java{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 40%;
-    }
-}
-
-@keyframes python{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-
-@keyframes vuejs{
-    0% {
-        width: 0%;
-    }
-    100%{
-        width: 50%;
-    }
-}
-
 html {
     font-family: 'TheSans Swisscom',sans-serif;
     box-sizing: border-box;
@@ -276,4 +151,156 @@ html {
     margin-top: 25px;
     padding: 15px 20px;
     text-transform: uppercase;
+}
+
+/*Skillbar*/
+.skills-bar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+
+.wrapper{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper2{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper3{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+span{
+    color: #fff;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+    border: 2px solid #0d96e0;
+    border-radius: 20px;
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+#jQuery-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 60%;
+    }
+} 
+
+#vue-bar{
+    animation: vue-fill 2s forwards;
+}
+@keyframes vue-fill{
+    100%{
+        width: 85%;
+    }
+}
+
+#react-bar{
+    animation: react-fill 2s forwards;
+}
+@keyframes react-fill{
+    100%{
+        width: 40%;
+    }
+}
+#react-bar{
+    animation: react-fill 2s forwards;
+}
+@keyframes react-fill{
+    100%{
+        width: 40%;
+    }
+}
+
+#blazor-bar{
+    animation: blazor-fill 2s forwards;
+}
+@keyframes blazor-fill{
+    100%{
+        width: 50%;
+    }
+}
+
+#german-bar{
+    animation: german-fill 2s forwards;
+}
+@keyframes german-fill{
+    100%{
+        width: 100%;
+    }
+}
+
+#englisch-bar{
+    animation: englisch-fill 2s forwards;
+}
+@keyframes englisch-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+#french-bar{
+    animation: french-fill 2s forwards;
+}
+@keyframes french-fill{
+    100%{
+        width: 50%;
+    }
 }
