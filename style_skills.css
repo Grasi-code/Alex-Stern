@@ -25,6 +25,10 @@ html {
     color: #fff;
 }
 
+.color-black {
+    color: black;
+}
+
 .box-container {
     align-items: center;
     display: flex;
@@ -42,7 +46,8 @@ html {
 }
 
 .box-item {
-    position: relative;
+    position: flex;
+    flex-wrap: wrap;
     --webkit-backface-visibility: hidden;
     width: 415px;
     margin-bottom: 35px;
